@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-image: url("BG2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* กล่องอ้างอิงตำแหน่ง */
+.profile-box {
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+
+    position: absolute;
+}
+
+/* ลูกศร */
+.arrow {
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    width: 170px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+}
