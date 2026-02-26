@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    background-image: url("backgrond.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: Arial, sans-serif;
+}
+
+/* ปุ่ม HOME */
+.home-btn {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* ปุ่มรูปภาพตรงกลาง */
+.center-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-btn img {
+    width: 1000px; /* ปรับขนาดได้ */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.center-btn img:hover {
+    transform: scale(1.1);
+}
